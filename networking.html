@@ -3,44 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Networking & Connections</title>
 </head>
 <body>
 
 <header>
-  <a href = "#maincontent">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+  <div class="skip"><a href = "#maincontent">Skip to Main Content</a></div>
+        <img src="images/UMSI_signature_marketing_no_U_white.png" alt="UMSI Logo" class="logo">
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "resume.html">Resumes</a></li>
-                <li><a href = "networking.html">Networking & Connections</a></li>
+                <li><a href = "networking.html" class="active">Networking & Connections</a></li>
                 <li><a href = "internship.html">Internship Search</a></li>
             </ul>
         </nav>
-        <h1>Networking & Connections</h1>
 
 </header>
 
 <main id="maincontent">
-    <p>
-        Networking is a crucial part of career development, and UMSI offers many opportunities to connect with professionals, alumni, and peers. Whether you're looking to build relationships or expand your professional network, the resources here are designed to help you succeed.
-    </p>
-    <h2>Career Event</h2>
-    <ul>
-        <li><a href="https://umich.instructure.com/courses/137916/pages/attend-an-event" target="_blank">Attend a Career Event</a></li>
-        <li><a href="https://www.dropbox.com/scl/fi/1it97skwtspcm2yuhf8qq/Winter-2024_Career-Fair-Prep-Workshop.mp4?rlkey=we1hk8fy3dr9tgtvgvo0bh4dn&e=1&dl=0" target="_blank">[Recording] 2024 Career Fair Prep Workshop</a></li>
-        <li><a href="https://docs.google.com/presentation/d/1ZQG4dY5Let1iot2GuKhV1mO_vgbvxv4YTNE2HP2qqf8/edit?usp=sharing" target="_blank">[Workshop Slides] 2024 Career Fair Prep</a></li>
-    </ul>
-    <h2>Networking Resources</h2>
-    <ul>
-        <li><a href="https://docs.google.com/document/d/18HMt79BU8ovGf9z7_P7No5tuwUS6qHNW5u0sgrepLtE/edit?tab=t.0" target="_blank">Networking Tips</a></li>
-        <li><a href="https://si-umich.12twenty.com/Login" target="_blank">Career Link: UMSI’s Exclusive Career Portal</a></li>
-    </ul>
+    <h1>Networking & Connections</h1>
+
+    <section class="content-grid">
+        <h2>Why Networking Matters</h2>
+        <p>
+            Networking is a big part of finding a job. At UMSI, you have many ways to meet professionals, alumni, and other students. Building a good network helps you learn about different jobs and find hidden opportunities. These tools will help you feel more comfortable reaching out to people.
+        </p>
+        <img src="images/networking_event.jpg" alt="Students talking at a networking event">
+    </section>
+
+    <section>
+        <h2>Making Connections</h2>
+        <p>If you are not sure how to start, check out these guides. They will show you exactly what to say when you email someone new and how to ask good questions during a chat.</p>
+        <ul  class="text-list">
+            <li><a href="https://docs.google.com/document/d/18HMt79BU8ovGf9z7_P7No5tuwUS6qHNW5u0sgrepLtE/edit?tab=t.0" target="_blank">Intro to Making Connections</a><br>Read this first to understand the basics of networking.</li>
+            <li><a href="https://docs.google.com/document/d/1cwq2KtdKQbO-tICHKUyKRA3QY4_3VJ8NLC2kwPBY4dI/edit?tab=t.0" target="_blank">Networking Outreach Email Examples</a><br>Use these simple templates to write messages on LinkedIn or email.</li>
+            <li><a href="https://docs.google.com/presentation/d/1QR0UA8V4d_hjHuayVbzF5_bx8d_8m3Ohvx9e5SiBodg/edit?slide=id.g187a33b4e7_2_86#slide=id.g187a33b4e7_2_86" target="_blank">Informational Interviews Using the TIARA Method</a><br>Learn the TIARA framework so you know what to ask when you meet a professional.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Career Events</h2>
+        <p>Going to events is the easiest way to practice networking. We host career fairs and workshops all year.</p>
+        <div class="grid-layout" >
+        <img src="images/career_fair.png" alt="A crowded room at a university career fair">
+        <ul  class="text-list">
+            <li><a href="https://umich.instructure.com/courses/137916/pages/attend-an-event" target="_blank">Attend a Career Event</a><br>See the calendar for upcoming events on campus.</li>
+            <li><a href="https://www.dropbox.com/scl/fi/1it97skwtspcm2yuhf8qq/Winter-2024_Career-Fair-Prep-Workshop.mp4?rlkey=we1hk8fy3dr9tgtvgvo0bh4dn&e=1&dl=0" target="_blank">[Recording] 2024 Career Fair Prep Workshop</a><br>Watch this video to get ready for the next fair.</li>
+            <li><a href="https://docs.google.com/presentation/d/1ZQG4dY5Let1iot2GuKhV1mO_vgbvxv4YTNE2HP2qqf8/edit?usp=sharing" target="_blank">[Workshop Slides] 2024 Career Fair Prep</a><br>Review the slides if you do not want to watch the whole video.</li>
+        </ul>
+    </div>
+    </section>
+
+    <section>
+        <h2>Online Portals</h2>
+        <p>Use our online system to find jobs and connect with employers who want to hire UMSI students.</p>
+        <ul  class="resume-list">
+            <li><a href="https://si-umich.12twenty.com/Login" target="_blank">Career Link: UMSI’s Exclusive Career Portal</a></li>
+        </ul>
+    </section>
 
 </main>
 <footer>
-  <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
+  <p><strong>University of Michigan School of Information</strong></p>
+  <p>
+    <a href="mailto:umsi.careers@umich.edu">Email Us</a> | 
+    <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
+  </p>
 </footer>
 </body>
 </html>
