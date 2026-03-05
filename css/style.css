@@ -75,6 +75,7 @@ nav a {
 nav a.active {
     background-color: #FFCB05;
     color: #00274C;
+    text-decoration: underline;
 }
 
 /* Skip link (Accessibility) */
@@ -96,7 +97,7 @@ nav a.active {
   border: 5px dashed #FFCB05;
 }
 
-/* Focus styles (Accessibility) */
+/* Focus styles */
 /* Add visible outline when any element is focused */
 :focus {
   outline: 4px dashed #00274C;
