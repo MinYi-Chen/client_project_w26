@@ -403,7 +403,7 @@ footer a:focus {
 
 
 /* Desktop View */
-@media (min-width: 768px) {
+@media (min-width: 790px) {
     
 main {
         max-width: 100%;
