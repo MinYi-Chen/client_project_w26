@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>404 - Page Not Found</title>
+</head>
+<body>
+
+<header>
+  <div class="skip"><a href = "#maincontent">Skip to Main Content</a></div>
+        <img src="images/UMSI_signature_marketing_no_U_white.png" alt="UMSI Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "resume.html">Resumes</a></li>
+                <li><a href = "networking.html">Networking & Connections</a></li>
+                <li><a href = "internship.html" class="active">Internship Search</a></li>
+            </ul>
+        </nav>
+
+</header>
+
+<main id="maincontent" class="error-page-main">
+    <h1 class="error-code">404</h1>
+    <h2>Oops! Page Not Found</h2>
+        <p>We can't seem to find the page you're looking for. It might have been removed or the link might be broken.</p>
+        <p>Don't worry, you can still find your way back to our resources:</p>
+    <div class="return-home-wrapper">
+        <ul class="action-list">
+            <li><a href="index.html">Return to Home Page</a></li>
+        </ul>
+    </div>
+</main>
+<footer>
+  <p><strong>University of Michigan School of Information</strong></p>
+  <p>
+    <a href="mailto:umsi.careers@umich.edu">Email Us</a> | 
+    <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
+  </p>
+  <p>&copy; <span id="year"></span> by UMSI. All rights reserved.</p>
+  <script>
+    // Set the current year in the footer automatically, uses JavaScript to ensure it stays up to date
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</footer>
+</body>
+</html>
