@@ -11,7 +11,7 @@
 
 <header>
   <div class="skip"><a href = "#maincontent">Skip to Main Content</a></div>
-        <img src="images/UMSI_signature_marketing_no_U_white.png" alt="UMSI Logo" class="logo">
+        <a href = "index.html" class="logo"><img src="images/UMSI_signature_marketing_no_U_white.png" alt="UMSI Logo"></a>  
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
@@ -50,7 +50,7 @@
     </ol>
   </section>
 
-  <section class="section-grid">
+  <section>
   <div>
     <h2>Resume Resources</h2>
     <ul class="resume-list">
@@ -104,24 +104,25 @@
 
   <section>
     <h2>FAQ</h2>
-    <ul  class="text-list">
-      <li>
-        <strong>How long should my resume be?</strong>
-        For most UMSI students and new grads, one page is best. More experienced professionals may require two pages.
-      </li>
-      <li>
-        <strong>Do I need a different resume for each application?</strong>
-        It’s wise to tailor your resume to the requirements and keywords of each opportunity.
-      </li>
-      <li>
-        <strong>Is it okay to include coursework or student projects?</strong>
-        Absolutely! UMSI coursework and projects are valued by employers, especially if they show relevant skills and impact.
-      </li>
-      <li>
-        <strong>How often should I update my resume?</strong>
-        Update your resume every semester, after major projects, or whenever you gain a new role or responsibility.
-      </li>
-    </ul>
+      <details class="faq-item">
+        <summary>How long should my resume be?</summary>
+        <p>For most UMSI students and new grads, one page is best. More experienced professionals may require two pages.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Do I need a different resume for each application?</summary>
+        <p>It’s wise to tailor your resume to the requirements and keywords of each opportunity.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Is it okay to include coursework or student projects?</summary>
+        <p>Absolutely! UMSI coursework and projects are valued by employers, especially if they show relevant skills and impact.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>How often should I update my resume?</summary>
+        <p>Update your resume every semester, after major projects, or whenever you gain a new role or responsibility.</p>
+      </details>
   </section>
           <!-- Content taken & modified from UMGPT with the prompt, "for the same content write me some intro content and resources for a resume page" - this was after I had asked for content for the home page.
         UMGPT. (2025). UMGPT (GPT-4.1 August 25th version) [Large language model]. -->
@@ -131,8 +132,13 @@
   <p><strong>University of Michigan School of Information</strong></p>
   <p>
     <a href="mailto:umsi.careers@umich.edu">Email Us</a> | 
-    <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
+    <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a>
   </p>
+  <p>&copy; <span id="year"></span> by UMSI. All rights reserved.</p>
+  <script>
+    // Set the current year in the footer automatically, uses JavaScript to ensure it stays up to date
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 </footer>
     
 </body>

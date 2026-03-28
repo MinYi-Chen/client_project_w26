@@ -11,7 +11,7 @@
 
 <header>
   <div class="skip"><a href = "#maincontent">Skip to Main Content</a></div>
-        <img src="images/UMSI_signature_marketing_no_U_white.png" alt="UMSI Logo" class="logo">
+        <a href = "index.html" class="logo"><img src="images/UMSI_signature_marketing_no_U_white.png" alt="UMSI Logo"></a>  
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
@@ -60,15 +60,15 @@
         <h2>Explore Career Paths</h2>
         <p>UMSI alumni go on to work in diverse fields. We provide specialized resources, panel recordings, and recruitment guides for the following tracks:</p>
 
-        <ul  class="resume-list">
-            <li>Data</li>
-            <li>User Experience (UX)</li>
-            <li>Consulting</li>
-            <li>Library & Archives</li>
-            <li>Software Engineering</li>
-            <li>Product Management</li>
-            <li>Health Informatics</li>
-            <li>Non-Profit Organizations & Public Sector Interest</li>
+        <ul class="resume-list">
+            <li><a href="https://docs.google.com/presentation/d/1V0kSQXhO-8rmsv6LKP7OqQqVBUBKkSyDmFd15uDUur4/edit?usp=sharing">Data</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1D_paU2t723q9vCd-4HIl9LoDvgLZlp9xS_nFApjCEkI/edit?usp=sharing">User Experience (UX)</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1tr5eBwZOigr9MVr2xQhfjooeoo3P20-pUsr6PSVdpEY/edit?usp=sharing">Consulting</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1snxqk9coJWGzj4DOOytsRnKHmIrj05FD7M1D-9P8yeQ/edit?usp=sharing">Library & Archives</a></li>
+            <li><a href="https://www.dropbox.com/scl/fi/z2vsaocrqlom8nlm1v40l/SWE-Overview-3.mp4?rlkey=amjn72z4rz1hx6r7l167jaz96&dl=0">Software Engineering</a></li>
+            <li><a href="https://drive.google.com/a/umich.edu/file/d/1JI7dTIZ_GYQC_aQutbZEo2v4rlgk2Hor/view?usp=sharing">Product Management</a></li>
+            <li><a href="https://www.dropbox.com/scl/fi/8gmp37k21l6l8bxlja6da/MHI-Seminar-Alumni-Panel-Winter-2026.mp4?rlkey=p3vtp1lyhkd61rlac9827ja01&st=jzvv3afh&dl=0">Health Informatics</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1k83m2dodzUBuzO5lR2NZrJ960PTIdLHhDbB_rvvbJy4/edit?usp=sharing">Non-Profit Organizations & Public Sector Interest</a></li>
         </ul>
     </section>
     <section>
@@ -91,8 +91,13 @@
   <p><strong>University of Michigan School of Information</strong></p>
   <p>
     <a href="mailto:umsi.careers@umich.edu">Email Us</a> | 
-    <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
+    <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a>
   </p>
+  <p>&copy; <span id="year"></span> by UMSI. All rights reserved.</p>
+  <script>
+    // Set the current year in the footer automatically, uses JavaScript to ensure it stays up to date
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 </footer>
 </body>
 </html>
